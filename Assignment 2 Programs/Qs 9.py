@@ -14,5 +14,6 @@ for i in range(1, n + 1):
         if i % j == 0:
             break
     else:
-        print(i, end=" ")
+        prime_numbers.append(i)
 
+print(prime_numbers)
