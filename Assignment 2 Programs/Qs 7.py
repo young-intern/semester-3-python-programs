@@ -9,7 +9,6 @@ left_or_right = input("Rotate elements to left or right? (L/R) ").lower()
 pop_index = -1 if left_or_right == "r" else 0
 insert_index = 0 if left_or_right == "r" else len(given_list)
 
-# rotate right
 for i in range(n):
     val = given_list[pop_index]
     given_list.insert(insert_index, val)
